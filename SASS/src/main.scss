@@ -1,0 +1,23 @@
+$mainfont: 'Courier New', Courier, monospace;
+
+header{
+    color: red;
+    nav{
+        display: flex;
+        -webkit-text-stroke: 1px solid green;
+        justify-content: flex-end;
+        padding-right: 50px;
+        ul{
+            list-style-type: none;
+            li{
+                display: inline;
+                margin-right: 30px;
+                a{
+                    text-decoration: none;
+                    font-family: $mainfont;
+                }
+            }
+        }
+
+    }
+}

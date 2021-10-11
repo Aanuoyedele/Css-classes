@@ -1,0 +1,73 @@
+body section {
+  width: 400px;
+  height: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
+}
+
+body section div#header {
+  text-align: center;
+}
+
+body section h1 {
+  color: blue;
+}
+
+div#boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  justify-items: center;
+}
+
+div#boxes #firstbox, div#boxes #secondbox {
+  border: thin solid #cccccc;
+  width: 120px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px 10px 10px 0;
+}
+
+.note {
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  background-color: #d5f6f7;
+}
+
+.refer1, .refer2, .refer3, .refer4 {
+  border: thin solid #cacaca;
+  border-radius: 10px 10px 10px 0;
+  padding: 10px;
+  margin: 1px;
+}
+
+#footer {
+  position: static;
+}
+
+#footer .footer1 {
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  background-color: #2295f2;
+  color: white;
+  text-align: center;
+}
+
+.footer2 {
+  border: thin solid #2295f2;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px;
+  color: #2295f2;
+  text-align: center;
+}
+
+hr {
+  position: -webkit-sticky;
+  position: sticky;
+}
+/*# sourceMappingURL=buildsav.css.map */

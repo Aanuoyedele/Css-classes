@@ -1,0 +1,80 @@
+$Font: 'Roboto', sans-serif;
+
+body{
+    // width: 500px;
+    // height: 1000px;
+    section{
+        width: 400px;
+        height: 500px;
+        justify-content: center;
+        background-color: white;
+        font-family: $Font;
+        overflow-y: scroll;
+        div#header{
+            text-align: center;
+        }
+       
+        h1{
+            color: blue;
+            
+           
+        }
+    }
+}
+div#boxes{
+    display: flex;
+    margin: 10px;
+    justify-items: center;
+    #firstbox{
+        border: thin solid rgb(204, 204, 204);
+        width: 120px;
+        height: 60px;
+        margin: 10px;
+        border-radius: 10px 10px 10px 0;
+        
+       
+    }
+}
+#secondbox{         
+    @extend #firstbox
+}
+.note{
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: rgb(213, 246, 247);
+}
+.refer1{
+    border: thin solid rgb(202, 202, 202);
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+    margin: 1px;
+}
+.refer2{
+    @extend .refer1
+}
+.refer3{
+    @extend .refer1
+}
+.refer4{
+    @extend .refer1
+}
+#footer{
+   position: static;
+    .footer1{
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        background-color: #2295f2;
+        color: white;
+        text-align: center;
+    }
+}
+.footer2{
+    border: thin solid #2295f2;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    color: #2295f2;
+    text-align: center;
+}
+hr{
+    position: sticky;
+}

@@ -1,0 +1,126 @@
+body {
+  background-color: #062863;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main aside {
+  background-color: #062863;
+  width: 20%;
+  height: 80pc;
+  font-weight: 0;
+}
+
+main aside div#aside {
+  position: fixed;
+  display: -ms-grid;
+  display: grid;
+  margin: 30px;
+  color: white;
+}
+
+main aside div#aside .piggyvest {
+  color: white;
+  float: right;
+}
+
+.anchor {
+  color: white;
+  text-decoration: none;
+  margin-top: -22px;
+  margin-left: 35px;
+}
+
+.anchor:hover {
+  border-radius: 10px 10px 10px 0px;
+  padding: 5px;
+  background-color: white;
+  color: blue;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  width: 80%;
+  height: 100pc;
+}
+
+section #section {
+  margin: 50px;
+}
+
+section span {
+  margin: 10px;
+}
+
+section #upperdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 100px;
+  margin-top: -15px;
+  margin-left: -10px;
+  overflow-x: scroll;
+}
+
+section .anchor1, section .anchor2, section .anchor3, section .anchor4 {
+  width: 140px;
+  height: 40px;
+  margin: 10px;
+  padding: 80px 80px 80px 80px;
+  background-color: #1666d9;
+  color: white;
+  border-radius: 10px 10px 10px 0;
+  text-decoration: none;
+}
+
+section .anchor2 {
+  background-color: purple;
+}
+
+section .anchor3 {
+  background-color: black;
+}
+
+section .anchor4 {
+  background-color: white;
+  color: black;
+}
+
+.border, .border1, .border2, .actborder {
+  border: thin solid #3b00df;
+  width: 500px;
+  height: 50px;
+  border-radius: 5px 5px 5px 0;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.to-do {
+  text-decoration: none;
+  color: black;
+}
+
+.border1, .border2 {
+  color: grey;
+  border-color: gray;
+}
+
+.actborder {
+  color: gray;
+  border-color: #c9c9c9;
+}
+
+span {
+  float: right;
+}
+
+.image {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=piggyvest.css.map */

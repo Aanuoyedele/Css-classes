@@ -1,0 +1,27 @@
+h3{
+    margin: 10px;
+}
+.navtab{
+    display: flex;
+    margin-left: 70pc; 
+    
+}
+.images{
+    display: flex;
+    width: 2000px;
+}
+
+a{
+    border: thin solid black ;
+    width: 10px;
+    margin: 10px;
+    height: auto;
+
+}
+
+#info{
+    display: flex;
+}
+#New{
+    color: aqua;
+}

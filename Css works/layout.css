@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    flex-flow: row wrap;
+    height: 60vh;
+    border: thick solid red;
+    align-items: center;
+    justify-content: center
+
+    /* flex-direction: row-reverse; */
+}
+div{
+    clip-path: polygon(36% 0, 100% 0, 100% 100%, 1% 100%, 0 30%);
+    width: 100px;
+    height: 100px;
+    text-align: bottom;
+    margin: 10px;
+    font-size: 2rem;
+    
+}

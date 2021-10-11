@@ -1,0 +1,54 @@
+$MainFont: 'Poppins', sans-serif;
+body{
+
+    background-image: url(../Images/Macro-Water-Drop-Nature-S-For-Android-Wallpaper-1440x1050.jpg);
+}
+
+main{
+    display: flex;
+    margin: 10px;
+    font-family: $MainFont;
+    font-weight: lighter;
+    
+    aside {
+            background-color: #3d4f5d;
+            height: 97vh;
+            margin-right: 0px;
+            text-align: center;
+            font-weight: lighter;
+            color: white;
+            
+            
+          
+            // div {
+            //    border: thin solid white;
+            //    background-color: white;
+            //    border-radius: 90% 90% 90% 90%;               
+            //    margin-top: 10px;
+            //    text-align: center;
+            //    position: fixed;
+            
+
+              
+                    
+                   
+                  
+               }
+            }
+        
+
+section{
+    background-color: rgb(218, 218, 218);
+}
+.anchor{
+    margin: 1px;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: aqua;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: $MainFont; 
+}
+h1{
+    color: green;
+}

@@ -1,0 +1,29 @@
+header {
+  color: red;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-stroke: 1px solid green;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 50px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
+/*# sourceMappingURL=main.css.map */

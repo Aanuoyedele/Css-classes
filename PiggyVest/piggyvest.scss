@@ -1,0 +1,132 @@
+$MainFont: 'Poppins', sans-serif;
+$Font: 'Poppins', sans-serif;
+body{
+    background-color: #062863;
+    font-family: $Font;
+    
+}
+main {
+    display: flex;
+    aside{
+        background-color: #062863;
+        width: 20%;
+        height:80pc; 
+        font-weight: 0;
+        
+        div#aside{
+           position: fixed;
+           display: grid;
+           margin: 30px;
+           color: white;
+           .piggyvest{
+               color: white;
+                float: right;
+           }
+          
+           
+        }
+        
+
+    }
+}
+.anchor{ 
+    color: white;
+    text-decoration: none;
+    margin-top: -22px;
+    margin-left: 35px;
+}
+.anchor:hover{
+    border-radius: 10px 10px 10px 0px;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+}
+
+
+section{
+    background-color: white;
+    width: 80%;
+    height: 100pc;
+
+    #section{
+        margin: 50px;
+    }
+    
+    
+    span{
+        margin: 10px;
+    }
+    
+    #upperdiv{
+        display: flex;
+        margin: 100px;   
+        margin-top: -15px;
+        margin-left: -10px;
+        overflow-x: scroll;
+        
+        
+               
+        
+    }
+    .anchor1{
+        width: 140px;
+        height: 40px;
+        margin: 10px;
+        padding: 80px 80px 80px 80px;
+        background-color: #1666d9;
+        color: white;
+        border-radius: 10px 10px 10px 0;
+        text-decoration: none;
+        // font-family: $Font;
+    }
+    .anchor2{
+        @extend .anchor1;
+        background-color: purple;
+    }
+    .anchor3{
+        @extend .anchor1;
+        background-color: black;       
+    }
+    .anchor4{
+        @extend .anchor1;
+        background-color: white;
+        color: black;
+        
+    }
+}
+.border{
+   border: thin solid rgb(59, 0, 223);
+   width: 500px;
+   height: 50px;
+   border-radius: 5px 5px 5px 0;    
+   padding: 5px; 
+   text-decoration: none;
+}
+.to-do{
+   text-decoration: none;
+    color: black
+}
+.border1{
+    @extend .border;
+    color: grey;
+    border-color: gray;
+}
+.border2{
+    @extend .border1;
+}
+.actborder{
+    @extend .border;
+    color: gray;
+    border-color: rgb(201, 201, 201);
+}
+span{   
+   float: right;
+}
+
+.coresav{
+    
+}
+.image{
+    margin-top: 10px;
+}

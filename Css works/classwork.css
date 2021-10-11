@@ -1,0 +1,34 @@
+section{
+    display: flex;
+    margin-top: 10ch;
+    margin-left: 50vh;
+}
+section div{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    margin: 20px;
+    border-radius: 100px;
+    z-index: 10px;
+}
+#sqi{
+    background-image: url(images/SQI.jpg);
+    background-blend-mode: normal;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    transform: scale(3);
+    importantmedu@;
+}
+#hardware{
+    background-image: ;
+    transform: scaleY(1.4);
+    transform: translateY(-50px);
+}
+#accounting{
+    transform: translateY(50px);
+}
+#robotics{
+    transform: translateX(-100px);
+}
+#ui{
+    transform: translateX(100px);
+}

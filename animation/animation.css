@@ -1,0 +1,40 @@
+@keyframes slide{
+    0% {background-color: blue; left: 0px; top: 0px; border-radius: 100px;}
+    25%{background-color: green; left: 300px; top: 0px; border-radius: 0px;}
+    50%{background-color: skyblue; left: 300px; top: 300px; border-top-left-radius: 100px;}
+    75%{background-color: yellow; left: 0px; top: 300px;border-radius: 100px;}
+    100%{background-color: purple; left: 0px; top: 0px; border-radius: 100px;}
+}
+
+.box{
+    display: block;
+    background: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 100px auto;
+    animation-name: slide;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite ;
+    animation-direction: linear;
+    animation-fill-mode: forwards;
+}
+/* @keyframes slide {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    } */

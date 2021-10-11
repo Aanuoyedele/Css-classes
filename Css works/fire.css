@@ -1,0 +1,14 @@
+header{
+    font-size: 10px;
+    background-image: url(Images/fireplace-love.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    
+}
+body{
+    background-color: white;
+}

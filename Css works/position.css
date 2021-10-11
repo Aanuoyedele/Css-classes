@@ -1,0 +1,25 @@
+header{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+section#relative{
+    border: thin solid gray;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+}
+section#relative:hover{
+    box-shadow: 0 0 20px gray;
+    transform: translateY(-1.3px);
+}
+/* div#absolute{ */
+    border: thick solid blue;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
